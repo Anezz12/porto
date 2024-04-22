@@ -11,7 +11,7 @@ function Main() {
           height={1000}
           src="/nish.gif"
           alt="Gambar"
-          loading="lazy"
+          loading="lazy-load-image"
           className="w-full h-72 object-cover"
         />
       </div>
