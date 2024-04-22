@@ -1,15 +1,18 @@
+"use client";
 import React from "react";
 import Image from "next/image";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 function Main() {
   return (
     <main className="flex min-h-screen flex-col bg-primary">
       <div className="background-size:cover;background-position:center">
-        <Image
+        <LazyLoadImage
           width={1000}
           height={1000}
           src="/nish.gif"
           alt="Gambar"
-          className="h-20 w-full bg-banner object-cover"
+          loading="lazy"
+          className="w-full h-72 object-cover"
         />
       </div>
       <div className="mx-auto -mt-12 flex w-full max-w-2xl flex-1 flex-col items-center px-0 sm:px-10">
