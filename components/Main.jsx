@@ -6,12 +6,11 @@ function Main() {
   return (
     <main className="flex min-h-screen flex-col bg-primary">
       <div className="background-size:cover;background-position:center">
-        <LazyLoadImage
+        <Image
           width={1000}
           height={1000}
           src="/nish.gif"
           alt="Gambar"
-          loading="lazy-load-image"
           className="w-full h-72 object-cover"
         />
       </div>
