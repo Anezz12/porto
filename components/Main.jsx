@@ -5,15 +5,14 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 function Main() {
   return (
     <main className="flex min-h-screen flex-col bg-primary">
-      <div className="background-size:cover;background-position:center">
-        <Image
-          width={1000}
-          height={1000}
-          src="/nish.gif"
-          alt="Gambar"
-          className="w-full h-72 object-cover"
-        />
-      </div>
+      <div
+        style={{
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundImage: `url("/nish.gif")`,
+        }}
+        className="h-60 w-full relative"
+      ></div>
       <div className="mx-auto -mt-12 flex w-full max-w-2xl flex-1 flex-col items-center px-0 sm:px-10">
         <div className="w-20 h-28 flex justify-center ">
           <Image
