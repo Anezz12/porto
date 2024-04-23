@@ -26,7 +26,7 @@ function Main() {
         <div className="relative flex flex-row items-center justify-center">
           <div className="mt-1 flex flex-row items-center justify-center">
             <span className="flex text-center  text-xl font-bold leading-tight text-zinc-300">
-              Harsena Argetya
+              Harsena Argretya
             </span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
