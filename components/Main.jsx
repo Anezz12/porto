@@ -40,7 +40,7 @@ function Main() {
           </div>
         </div>
         <p className="text-center text-sm text-gray-400 dark:text-gray-500">
-          <a>Ingin Menjadi Programmer Handal,Namun Enggan Ngoding</a>
+          <a>Ingin Menjadi Programmer Handal, Namun Enggan Ngoding</a>
         </p>
         <div className="mt-3">
           <div className="mx-auto flex flex-wrap items-center justify-center gap-1">
