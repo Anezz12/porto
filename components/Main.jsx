@@ -124,7 +124,7 @@ function Main() {
               <div className="max-w-s mt-1 w-full space-y-2">
                 <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
                   <a
-                    href="#"
+                    href="https://harsena-argretya.vercel.app"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
                     className="w-full transition-all sm:hover:opacity-70"
